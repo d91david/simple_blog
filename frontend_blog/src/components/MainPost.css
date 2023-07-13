@@ -1,0 +1,19 @@
+.mainpost-container{
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 45vh;
+    color: var(--font_blue);
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    border: 3px dashed var(--bg_blue);
+}
+
+.mainpost-secondary-container{
+    width: 80%;
+    border: 5px double var(--bg_blue);
+}

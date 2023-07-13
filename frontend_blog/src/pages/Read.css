@@ -1,0 +1,22 @@
+.read-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 3vw;
+    color: var(--font_blue);
+}
+
+.read-post {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 2vh 0;
+    width: 65vw;
+    border-left: 5px dotted var(--bg_blue) ;
+}
+
+#read-date{
+    align-self: flex-start;
+    padding: 2vh 0 0 2vw;
+    border-top: 5px dotted var(--font_blue);
+    font-weight: 500;
+}

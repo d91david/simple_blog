@@ -1,0 +1,43 @@
+/* 
+    Font colour (blue): #1c31ae
+    Font colour (white): #fcfdf5
+    Blue background: #162cb9
+    Light background: #f9f6ee
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+:root {
+  --bg_blue: #162cb9;
+  --bg_light: #f9f6ee;
+  --font_white: #fcfdf5;
+  --font_blue: #1c31ae;
+}
+
+*{
+  font-family: 'Roboto', sans-serif;
+
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--bg_light);
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.link-router-component {
+  text-decoration: none;
+}
+
+.link-router-component:visited {
+  color: var(--font_blue);
+}
+
+.link-router-component:hover {
+  color: red;
+}

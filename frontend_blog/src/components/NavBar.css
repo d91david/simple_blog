@@ -1,0 +1,24 @@
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    width: 65vw;
+    padding: 0.5em 1em; 
+    border-bottom: 1px solid var(--bg_blue);
+}
+
+.navbar-logo img{
+    width: 50px;
+    height: 50px;
+}
+
+.navbar-items {
+    display: flex;
+    gap: 1.5em; 
+}
+
+.navbar-items a {
+    text-decoration: none;
+    color: var(--font_blue);
+    font-weight: bolder;
+    font-size: 1.5em;
+}

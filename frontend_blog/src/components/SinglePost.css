@@ -1,0 +1,33 @@
+.single-post-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 3vw;
+    width: 65vw;
+    color: var(--font_blue);
+}
+
+#single-post-title {
+    align-self: center;
+}
+
+#single-post-edit-link {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.3rem;
+    padding: 5px;
+    border: 1px dotted var(--bg_blue);
+    border-radius: 4px;
+}
+
+#single-post-edit-link:visited {
+    color: var(--font_blue);
+  }
+  
+#single-post-edit-link:hover {
+    color: red;
+  }
+
+#single-post-content {
+    white-space: pre-wrap;
+  }
+  

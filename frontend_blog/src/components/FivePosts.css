@@ -1,0 +1,19 @@
+.fiveposts-container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 3vh;
+    color: var(--font_blue);
+    border-left: 2px dashed var(--bg_blue);
+}
+
+.home-post {
+    display: flex;
+    align-items: center;
+    padding-left: 2vw;
+}
+
+#fiveposts-post-content {
+    padding-left: 15px;
+    margin-left: 10px;
+    border-left: 1px solid var(--bg_blue);
+}
